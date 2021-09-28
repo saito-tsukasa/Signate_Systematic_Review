@@ -7,7 +7,12 @@ Signateコンペティション『医学論文の自動仕分けチャレンジ�
 ・トークン数は最大512（max_lengthでトークン数を指定）  
 ・max_length以上は切り捨て、未満はパディングをするため[PAD]を追加し、max_lengthに揃える。  
 ・各トークンは768次元ベクトルで表現される  
-・BERTモデルに学習させる前に、各トークンのIDとattention(トークンがあれば1)を取得し、それをモデルに学習させる  
+・BERTモデルに学習させる前に、各トークンのID(input_ids)とAttention(attention_mask)を取得し、それをモデルに学習させる  
+<br>
+※<br>
+input_ids:事前学習モデル毎に各トークンのIDが割り当てられている<br>
+attention_mask:トークンがあれば1、[PAD]であれば0
+
 
 ## ①AutoModelForSequenceClassificationの構造
 AutoModelForSequenceClassificationの構造は以下の通り。計13層からなる構造となっている
