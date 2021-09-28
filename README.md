@@ -9,9 +9,8 @@ Signateコンペティション『医学論文の自動仕分けチャレンジ�
 ・各トークンは768次元ベクトルで表現される  
 ・BERTモデルに学習させる前に、各トークンのID(input_ids)とAttention(attention_mask)を取得し、それをモデルに学習させる  
 <br>
-※<br>
-input_ids:事前学習モデル毎に各トークンのIDが割り当てられている<br>
-attention_mask:トークンがあれば1、[PAD]であれば0
+※input_ids:事前学習モデル毎に各トークンのIDが割り当てられている<br>
+※attention_mask:トークンがあれば1、[PAD]であれば0
 
 
 ## ①AutoModelForSequenceClassificationの構造
