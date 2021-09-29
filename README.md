@@ -315,10 +315,10 @@ BertForSequenceClassification(
 )
 ```
 
-＜モデル概要＞
+＜モデル概要＞<br>
 ![IMG_1172](https://user-images.githubusercontent.com/88126063/135190513-33b7d23b-d86b-489b-a14e-b659cadbebcc.JPG)
 
-＜実際の出力＞
+＜実際の出力＞<br>
 <img width="867" alt="スクリーンショット 2021-09-29 11 30 45" src="https://user-images.githubusercontent.com/88126063/135193190-23b042e4-6a54-48c1-8e69-8d3e56b10b8b.png">
 
 <br>
@@ -633,10 +633,10 @@ BertModel(
 )
 ```
 
-＜モデル概要＞
+＜モデル概要＞<br>
 ![IMG_1170](https://user-images.githubusercontent.com/88126063/135189023-b18128ee-45de-4c92-9411-54df5505fd81.JPG)
 
-＜実際の出力＞
+＜実際の出力＞<br>
 <img width="953" alt="スクリーンショット 2021-09-29 11 39 30" src="https://user-images.githubusercontent.com/88126063/135194021-2f405656-198a-47f9-8952-35a4d689b9a0.png">
 
 ↓続き
