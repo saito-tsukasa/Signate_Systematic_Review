@@ -662,10 +662,10 @@ https://huggingface.co/microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract
 ## リポジトリ上のipynbファイルについて
 - Bert.ipynb <br>
    → 基本的なBERTモデル
-- Baseline.ipynb <br>
-   → k-fold法などの工夫を加え、最も精度が向上したモデル
-- CNN.ipynb <br>
+- Bert_CNN.ipynb <br>
    → CNN層を最後に付け加えたモデル
+- Baseline.ipynb <br>
+   → K-fold法などの工夫を加え、最も精度が向上したモデル
 - BeseModel.ipynb <br>
    → Baseline.ipynbのBaseModelの部分を複数個記述
 - ML.ipynb <br>
