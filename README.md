@@ -654,7 +654,7 @@ last_hidden_stateやhidden_statesを用いることで、CNN層やLSTM層など�
 
 ## 今回使用した事前学習済みモデルについて
 PubMedBERTと呼ばれる事前学習済みモデルを使用。<br>
-microsoft社が公開しており、生物医学自然言語処理（NLP）のための事前学習モデル。<br>
+microsoft社が公開しており、生物医学自然言語処理（NLP）のための事前学習済みモデル。<br>
 PubMed上の1,400万件のabstractと32億語を用いて語彙（トークン）を生成し、学習している。
 
 https://huggingface.co/microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract
