@@ -653,11 +653,16 @@ last_hidden_stateやhidden_statesを用いることで、CNN層やLSTM層など�
 また、last_hidden_stateを取り出し、機械学習モデル(Logistic回帰,LGBMなど)を使用したりできるなど、汎用性は高い。<br>
 
 ## リポジトリ上のipynbファイルについて
-- Bert_less_function.ipynb → 基本的なBERTモデル
-- Baseline.ipynb → k-foldなど工夫を加え、最も精度が向上したモデル
-- CNN.ipynb → CNN層を最後に付け加えたモデル
-- BeseModel.ipynb → Baseline.ipynbのBaseModelの部分を複数個記述
-- ML.ipynb → 隠れ層を使って機械学習
+- Bert.ipynb <br>
+   → 基本的なBERTモデル
+- Baseline.ipynb <br>
+   → k-fold法などの工夫を加え、最も精度が向上したモデル
+- CNN.ipynb <br>
+   → CNN層を最後に付け加えたモデル
+- BeseModel.ipynb <br>
+   → Baseline.ipynbのBaseModelの部分を複数個記述
+- ML.ipynb <br>
+  → 隠れ層を使って機械学習
 
 
 ## 参考
