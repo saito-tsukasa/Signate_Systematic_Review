@@ -669,3 +669,4 @@ last_hidden_stateやhidden_statesを用いることで、CNN層やLSTM層など�
 - https://qiita.com/takubb/items/fd972f0ac3dba909c293
 - https://qiita.com/YuiKasuga/items/343309257da1798c1b63
 - https://github.com/ZeroxTM/BERT-CNN-Fine-Tuning-For-Hate-Speech-Detection-in-Online-Social-Media
+- https://signate.jp/competitions/471/discussions/pytorch-bert (Signateフォーラム Yoshio Sugiyamaさん)
