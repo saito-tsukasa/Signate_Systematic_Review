@@ -670,6 +670,8 @@ https://huggingface.co/microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract
    → Baseline.ipynbのBaseModelの部分を複数個記述
 - ML.ipynb <br>
   → 隠れ層を使って機械学習
+- TF_IDF_ML.ipynb（おまけ）<br>
+  → TF-IDFを用いた機械学習モデル
 
 
 ## 参考
