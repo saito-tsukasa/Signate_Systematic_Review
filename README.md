@@ -7,34 +7,34 @@ Signateコンペティション『医学論文の自動仕分けチャレンジ�
 ## リポジトリ上のフォルダ・ipynbファイルについて
 
 **＜フォルダ＞**
-- Data<br>
+- Data
   → Signateで公開されているデータ
-- Model<br>
+- Model
   → 最も精度が良かったModelの重みデータ
-- log<br>
+- log
   → 学習ログファイル
-- Token<br>
+- Token
   → 各学習済みモデル固有のトークンリスト
-- Output<br>
+- Output
   → 最終出力ファイル、中間層ベクトルデータ
-- Proba<br>
+- Proba
   → 確率値のデータ
-- CNN_Image<br>
+- CNN_Image
   → CNNのイメージ図
 
 
 **＜ipynbファイル＞**
-- Bert.ipynb <br>
+- Bert.ipynb
    → 基本的なBERTモデル
-- Bert_CNN.ipynb <br>
+- Bert_CNN.ipynb
    → CNN層を最後に付け加えたモデル
-- Baseline.ipynb <br>
+- Baseline.ipynb
    → K-fold法などの工夫を加え、最も精度が向上したモデル
-- BeseModel.ipynb <br>
+- BeseModel.ipynb
    → Baseline.ipynbのBaseModelの部分を複数個記述
-- ML.ipynb <br>
-  → 隠れ層を使って機械学習
-- TF_IDF_ML.ipynb（おまけ）<br>
+- BERT_ML.ipynb
+  → BERTの隠れ層を使って機械学習
+- TF_IDF_ML.ipynb（おまけ）
   → TF-IDFを用いた機械学習モデル
 
 
