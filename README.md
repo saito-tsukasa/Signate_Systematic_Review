@@ -3,6 +3,47 @@
 Signateコンペティション『医学論文の自動仕分けチャレンジ（ https://signate.jp/competitions/471 ）』へ参加をし、BERTの分類問題モデルを実装した。<br>
 その備忘録としてBERTの実装方法ならびに、BERTの改造した方法を以下に示す。
 
+
+## リポジトリ上のフォルダ・ipynbファイルについて
+
+**＜フォルダ＞**
+- Data<br>
+  → Signateで公開されているデータ
+- Model<br>
+  → 最も精度が良かったModelの重みデータ
+- log<br>
+  → 学習ログファイル
+- Token<br>
+  → 各学習済みモデル固有のトークンリスト
+- Output<br>
+  → 最終出力ファイル、中間層ベクトルデータ
+- Proba<br>
+  → 確率値のデータ
+
+
+**＜ipynbファイル＞**
+- Bert.ipynb <br>
+   → 基本的なBERTモデル
+- Bert_CNN.ipynb <br>
+   → CNN層を最後に付け加えたモデル
+- Baseline.ipynb <br>
+   → K-fold法などの工夫を加え、最も精度が向上したモデル
+- BeseModel.ipynb <br>
+   → Baseline.ipynbのBaseModelの部分を複数個記述
+- ML.ipynb <br>
+  → 隠れ層を使って機械学習
+- TF_IDF_ML.ipynb（おまけ）<br>
+  → TF-IDFを用いた機械学習モデル
+
+
+## 今回使用した事前学習済みモデルについて
+PubMedBERTと呼ばれる事前学習済みモデルを使用。<br>
+microsoft社が公開しており、生物医学自然言語処理（NLP）のための事前学習済みモデル。<br>
+PubMed上の1,400万件のabstractと32億語を用いて語彙（トークン）を生成し、学習している。
+
+https://huggingface.co/microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract
+
+
 ## BERTモデルの基本
 - トークン数は最大512（max_lengthでトークン数を指定）  
 - max_length以上は切り捨て、未満はパディングをするため[PAD]を追加し、max_lengthに揃える。  
@@ -652,26 +693,6 @@ pooler_outputを使用し、層を追加することでAutoModelForSequenceClass
 last_hidden_stateやhidden_statesを用いることで、CNN層やLSTM層などを追加し、新たなネットワークを作ることも可能。<br>
 また、last_hidden_stateを取り出し、機械学習モデル(Logistic回帰,LGBMなど)を使用したりできるなど、汎用性は高い。<br>
 
-## 今回使用した事前学習済みモデルについて
-PubMedBERTと呼ばれる事前学習済みモデルを使用。<br>
-microsoft社が公開しており、生物医学自然言語処理（NLP）のための事前学習済みモデル。<br>
-PubMed上の1,400万件のabstractと32億語を用いて語彙（トークン）を生成し、学習している。
-
-https://huggingface.co/microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract
-
-## リポジトリ上のipynbファイルについて
-- Bert.ipynb <br>
-   → 基本的なBERTモデル
-- Bert_CNN.ipynb <br>
-   → CNN層を最後に付け加えたモデル
-- Baseline.ipynb <br>
-   → K-fold法などの工夫を加え、最も精度が向上したモデル
-- BeseModel.ipynb <br>
-   → Baseline.ipynbのBaseModelの部分を複数個記述
-- ML.ipynb <br>
-  → 隠れ層を使って機械学習
-- TF_IDF_ML.ipynb（おまけ）<br>
-  → TF-IDFを用いた機械学習モデル
 
 
 ## 参考
