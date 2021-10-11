@@ -1,0 +1,56 @@
+BERT PubMed Abstract
+========== fold: 0 training ==========
+Epoch 1 - avg_train_loss: 0.0630  avg_val_loss: 0.0474  time: 1239s
+Epoch 1 - Score: 0.9168157423971377 - Threshold:0.0527 - val_loss0.0474
+Epoch 1 - Save Best Score: 0.9168 Model - bestThr0.05270 - val_loss0.0474
+Epoch 2 - avg_train_loss: 0.0335  avg_val_loss: 0.0422  time: 1241s
+Epoch 2 - Score: 0.9078425389075374 - Threshold:0.0799 - val_loss0.0422
+Epoch 3 - avg_train_loss: 0.0210  avg_val_loss: 0.0575  time: 1242s
+Epoch 3 - Score: 0.9014514896867838 - Threshold:0.0004 - val_loss0.0575
+Bacthsize :16 - LearningRate :2e-05
+========== fold: 0 result ==========
+Score: 0.91682 - Threshold：0.05270
+========== fold: 1 training ==========
+Epoch 1 - avg_train_loss: 0.0743  avg_val_loss: 0.0490  time: 1243s
+Epoch 1 - Score: 0.9161328765082676 - Threshold:0.0096 - val_loss0.0490
+Epoch 1 - Save Best Score: 0.9161 Model - bestThr0.00960 - val_loss0.0490
+Epoch 2 - avg_train_loss: 0.0442  avg_val_loss: 0.0518  time: 1243s
+Epoch 2 - Score: 0.9210138520483347 - Threshold:0.0042 - val_loss0.0518
+Epoch 2 - Save Best Score: 0.9210 Model - bestThr0.00420 - val_loss0.0518
+Epoch 3 - avg_train_loss: 0.0356  avg_val_loss: 0.0354  time: 1244s
+Epoch 3 - Score: 0.9355187876913562 - Threshold:0.0449 - val_loss0.0354
+Epoch 3 - Save Best Score: 0.9355 Model - bestThr0.04490 - val_loss0.0354
+Bacthsize :16 - LearningRate :2e-05
+========== fold: 1 result ==========
+Score: 0.93552 - Threshold：0.04490
+========== fold: 2 training ==========
+Epoch 1 - avg_train_loss: 0.0658  avg_val_loss: 0.0392  time: 1244s
+Epoch 1 - Score: 0.9169363538295578 - Threshold:0.0566 - val_loss0.0392
+Epoch 1 - Save Best Score: 0.9169 Model - bestThr0.05660 - val_loss0.0392
+Epoch 2 - avg_train_loss: 0.0329  avg_val_loss: 0.0458  time: 1244s
+Epoch 2 - Score: 0.9163889730384732 - Threshold:0.0230 - val_loss0.0458
+Epoch 3 - avg_train_loss: 0.0206  avg_val_loss: 0.0393  time: 1244s
+Epoch 3 - Score: 0.9187123327943555 - Threshold:0.0066 - val_loss0.0393
+Epoch 3 - Save Best Score: 0.9187 Model - bestThr0.00660 - val_loss0.0393
+Bacthsize :16 - LearningRate :2e-05
+========== fold: 2 result ==========
+Score: 0.91871 - Threshold：0.00660
+========== fold: 3 training ==========
+Epoch 1 - avg_train_loss: 0.0684  avg_val_loss: 0.0435  time: 1244s
+Epoch 1 - Score: 0.8753353098969364 - Threshold:0.0083 - val_loss0.0435
+Epoch 1 - Save Best Score: 0.8753 Model - bestThr0.00830 - val_loss0.0435
+Epoch 2 - avg_train_loss: 0.0334  avg_val_loss: 0.0430  time: 1243s
+Epoch 2 - Score: 0.8931229532598988 - Threshold:0.0078 - val_loss0.0430
+Epoch 2 - Save Best Score: 0.8931 Model - bestThr0.00780 - val_loss0.0430
+Epoch 3 - avg_train_loss: 0.0218  avg_val_loss: 0.0538  time: 1243s
+Epoch 3 - Score: 0.8842443729903536 - Threshold:0.0002 - val_loss0.0538
+Bacthsize :16 - LearningRate :2e-05
+========== fold: 3 result ==========
+Score: 0.89312 - Threshold：0.00780
+========== fold: 4 training ==========
+Epoch 1 - avg_train_loss: 0.0647  avg_val_loss: 0.0436  time: 1243s
+Epoch 1 - Score: 0.9057437407952871 - Threshold:0.0073 - val_loss0.0436
+Epoch 1 - Save Best Score: 0.9057 Model - bestThr0.00730 - val_loss0.0436
+Epoch 2 - avg_train_loss: 0.0334  avg_val_loss: 0.0422  time: 1242s
+Epoch 2 - Score: 0.9101760668457177 - Threshold:0.0037 - val_loss0.0422
+Epoch 2 - Save Best Score: 0.9102 Model - bestThr0.00370 - val_loss0.0422
