@@ -1,7 +1,8 @@
 # Signate医学論文分類コンペティション（BERT使用）
 
 Signateコンペティション『医学論文の自動仕分けチャレンジ（ https://signate.jp/competitions/471 ）』へ参加をし、BERTの分類問題モデルを実装した。<br>
-その備忘録としてBERTの実装方法ならびに、BERTの改造した方法を以下に示す。
+その備忘録としてBERTの実装方法ならびに、BERTの改造した方法を以下に示す。<br>
+※Google Colab Pro を使用。
 
 
 ## リポジトリ上のフォルダ・ipynbファイルについて
