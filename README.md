@@ -700,7 +700,13 @@ pooler_outputを使用し、層を追加することでAutoModelForSequenceClass
 last_hidden_stateやhidden_statesを用いることで、CNN層やLSTM層などを追加し、新たなネットワークを作ることも可能。<br>
 また、last_hidden_stateを取り出し、機械学習モデル(Logistic回帰,LGBMなど)を使用したりできるなど、汎用性は高い。<br>
 
+## チームメイト・謝辞
 
+- [Go-hirino](https://github.com/Go-horino)さん
+- [daitai-iro](https://github.com/daitai-iro)さん
+- [Taiga-Nishi](https://github.com/Taiga-Nishi)さん
+
+いい勉強させてもらいました。ありがとうございました。
 
 ## 参考
 - https://qiita.com/takubb/items/fd972f0ac3dba909c293
